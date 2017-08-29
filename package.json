@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon app.js",
-    "test": "mocha ./spec"
+    "test": "PORT=3000 mocha ./spec"
   },
   "repository": {
     "type": "git",
@@ -16,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "chai": "^4.1.1",
+    "eslint": "^4.5.0",
     "express": "^4.15.4",
     "morgan": "^1.8.2",
     "nodemon": "^1.11.0",
