@@ -5,8 +5,12 @@ const router = require('./routes/index');
 
 const port = process.env.PORT || 8000;
 
+app.use(morgan('dev'))
+
 app.use('/', router);
 
 app.listen(port, () => {
-  console.log("listening on port " + port);
+  console.log("Listening on port " + port);
 });
+
+module.exports = app;
