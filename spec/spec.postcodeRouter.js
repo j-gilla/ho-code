@@ -1,7 +1,5 @@
 /* eslint-env node, mocha */
 'use strict';
-process.env.NODE_ENV = 'test';
-
 const expect = require('chai').expect;
 const app = require('../app');
 const request = require('supertest');
