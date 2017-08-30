@@ -1,4 +1,6 @@
 'use strict';
+process.env.NODE_ENV = 'test';
+
 const postcodeRouter = require('express').Router();
 const data = require('../data.json');
 
