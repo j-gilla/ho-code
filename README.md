@@ -1,18 +1,18 @@
 # ho-code
 
-#PLEASE NOTE:
+## PLEASE NOTE:
 The API endpoints provided in the clinics tech test.pdf have been retired.
 
-The endpoints provided have been simulated using the example JSON data at the end of the briefing doc. You will find this file in the root of the directory named
+The endpoints provided have been simulated using the example JSON data at the end of the briefing doc. You will find this file in the root of the directory named data.json.
 
-##Installation
+## Installation
 
-$ npm install
+$ `npm install`
 
-##Start server
+## Start server
 
-$ npm run dev
+$ `npm run dev`
 
-##Run tests
+## Run tests
 
-$ npm test
+$ `npm test`
