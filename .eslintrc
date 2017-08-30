@@ -20,18 +20,15 @@
         "spaced-comment": [1, "always"],
         "no-undef": 2,
         "no-unused-vars": 2,
-        "comma-dangle": [2, "always-multiline"],
         "semi": 2,
-        "max-len": [2, 100, 4],
+        "max-len": [2, 300, 4],
         "no-console": 2,
         "no-debugger": 2,
         "no-dupe-args": 2,
         "no-dupe-keys": 2,
         "eqeqeq": 2,
         "no-useless-call": 1,
-        "eol-last": 2,
-        "react/jsx-uses-vars": 2,
-        "react/jsx-uses-react": 2
+        "eol-last": 2
     },
     "parserOptions": {
         "ecmaVersion": 6,
@@ -39,8 +36,6 @@
         "ecmaFeatures": {
             "experimentalObjectRestSpread": true,
             "globalReturn": true,
-            "jsx": true
         }
-    },
-    "plugins": [ "react" ]
+    }
 }
