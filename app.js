@@ -3,7 +3,6 @@ const express = require('express');
 const app = express();
 const morgan = require('morgan');
 const router = require('./routes/router');
-// const postcodeRouter = require('./routes/postcodeRouter');
 
 const port = process.env.PORT || 8000;
 
